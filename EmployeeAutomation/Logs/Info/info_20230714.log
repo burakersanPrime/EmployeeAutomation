@@ -1,0 +1,101 @@
+2023-07-14T16:13:57.3291501+03:00 [INF] (Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager) User profile is available. Using '"C:\Users\burak\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-07-14T16:13:58.4741252+03:00 [INF] (Microsoft.Hosting.Lifetime) Now listening on: "http://localhost:5169"
+2023-07-14T16:13:58.5369433+03:00 [INF] (Microsoft.Hosting.Lifetime) Application started. Press Ctrl+C to shut down.
+2023-07-14T16:13:58.5393715+03:00 [INF] (Microsoft.Hosting.Lifetime) Hosting environment: "Development"
+2023-07-14T16:13:58.5435266+03:00 [INF] (Microsoft.Hosting.Lifetime) Content root path: "C:\Users\burak\source\repos\EmployeeAutomation\EmployeeAutomation"
+2023-07-14T16:14:05.1389997+03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/1.1 GET http://localhost:5169/swagger/index.html - -
+2023-07-14T16:14:06.6937328+03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/1.1 GET http://localhost:5169/swagger/index.html - - - 200 - text/html;charset=utf-8 1553.8483ms
+2023-07-14T16:14:08.1098656+03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/1.1 GET http://localhost:5169/_framework/aspnetcore-browser-refresh.js - -
+2023-07-14T16:14:08.1128800+03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/1.1 GET http://localhost:5169/_vs/browserLink - -
+2023-07-14T16:14:08.1332217+03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/1.1 GET http://localhost:5169/_framework/aspnetcore-browser-refresh.js - - - 200 12006 application/javascript;+charset=utf-8 23.3459ms
+2023-07-14T16:14:08.5113614+03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/1.1 GET http://localhost:5169/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 398.2898ms
+2023-07-14T16:14:08.9227789+03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/1.1 GET http://localhost:5169/swagger/v1/swagger.json - -
+2023-07-14T16:14:10.7770036+03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/1.1 GET http://localhost:5169/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 1854.3025ms
+2023-07-14T16:14:21.7072274+03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/1.1 GET http://localhost:5169/api/AuthorizedPerson - -
+2023-07-14T16:14:21.8037755+03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executing endpoint '"EmployeeAutomation.Controllers.AuthorizedPersonController.GetAuthorizedPersons (EmployeeAutomation)"'
+2023-07-14T16:14:21.8679575+03:00 [INF] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker) Route matched with "{action = \"GetAuthorizedPersons\", controller = \"AuthorizedPerson\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[em.Domain.Authorize.AuthorizedPerson]] GetAuthorizedPersons()" on controller "EmployeeAutomation.Controllers.AuthorizedPersonController" ("EmployeeAutomation").
+2023-07-14T16:14:40.2418206+03:00 [INF] (Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor) Executing "ObjectResult", writing value of type '"System.String"'.
+2023-07-14T16:14:40.2690481+03:00 [INF] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker) Executed action "EmployeeAutomation.Controllers.AuthorizedPersonController.GetAuthorizedPersons (EmployeeAutomation)" in 18296.4797ms
+2023-07-14T16:14:40.2794646+03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executed endpoint '"EmployeeAutomation.Controllers.AuthorizedPersonController.GetAuthorizedPersons (EmployeeAutomation)"'
+2023-07-14T16:14:42.3295540+03:00 [INF] (AutoWrapper.AutoWrapperMiddleware) Source:[::1] Request: GET http localhost:5169/api/AuthorizedPerson   Responded with [500] in 20524ms
+2023-07-14T16:14:42.3883713+03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/1.1 GET http://localhost:5169/api/AuthorizedPerson - - - 500 104 application/json 20681.1468ms
+2023-07-14T16:20:40.1476056+03:00 [INF] (Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager) User profile is available. Using '"C:\Users\burak\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-07-14T16:20:41.1929230+03:00 [INF] (Microsoft.Hosting.Lifetime) Now listening on: "http://localhost:5169"
+2023-07-14T16:20:41.2149688+03:00 [INF] (Microsoft.Hosting.Lifetime) Application started. Press Ctrl+C to shut down.
+2023-07-14T16:20:41.2177087+03:00 [INF] (Microsoft.Hosting.Lifetime) Hosting environment: "Development"
+2023-07-14T16:20:41.2265559+03:00 [INF] (Microsoft.Hosting.Lifetime) Content root path: "C:\Users\burak\source\repos\EmployeeAutomation\EmployeeAutomation"
+2023-07-14T16:20:44.9061363+03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/1.1 GET http://localhost:5169/swagger/index.html - -
+2023-07-14T16:20:46.9508211+03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/1.1 GET http://localhost:5169/swagger/index.html - - - 200 - text/html;charset=utf-8 2053.5140ms
+2023-07-14T16:20:47.9170255+03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/1.1 GET http://localhost:5169/_framework/aspnetcore-browser-refresh.js - -
+2023-07-14T16:20:47.9326018+03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/1.1 GET http://localhost:5169/_vs/browserLink - -
+2023-07-14T16:20:47.9655453+03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/1.1 GET http://localhost:5169/_framework/aspnetcore-browser-refresh.js - - - 200 12006 application/javascript;+charset=utf-8 47.3243ms
+2023-07-14T16:20:48.6610100+03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/1.1 GET http://localhost:5169/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 728.3061ms
+2023-07-14T16:20:49.1100476+03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/1.1 GET http://localhost:5169/swagger/v1/swagger.json - -
+2023-07-14T16:20:50.3740744+03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/1.1 GET http://localhost:5169/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 1264.0118ms
+2023-07-14T16:21:00.8836407+03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/1.1 GET http://localhost:5169/api/AuthorizedPerson - -
+2023-07-14T16:21:01.1754700+03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executing endpoint '"EmployeeAutomation.Controllers.AuthorizedPersonController.GetAuthorizedPersons (EmployeeAutomation)"'
+2023-07-14T16:21:01.2183736+03:00 [INF] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker) Route matched with "{action = \"GetAuthorizedPersons\", controller = \"AuthorizedPerson\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[em.Domain.Authorize.AuthorizedPerson]] GetAuthorizedPersons()" on controller "EmployeeAutomation.Controllers.AuthorizedPersonController" ("EmployeeAutomation").
+2023-07-14T16:21:03.8731924+03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/1.1 GET http://localhost:5169/swagger/index.html - -
+2023-07-14T16:21:05.0367424+03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/1.1 GET http://localhost:5169/swagger/index.html - - - 200 - text/html;charset=utf-8 1164.6204ms
+2023-07-14T16:21:05.2164191+03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/1.1 GET http://localhost:5169/_framework/aspnetcore-browser-refresh.js - -
+2023-07-14T16:21:05.3148733+03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/1.1 GET http://localhost:5169/_framework/aspnetcore-browser-refresh.js - - - 200 12006 application/javascript;+charset=utf-8 98.3720ms
+2023-07-14T16:21:05.3178266+03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/1.1 GET http://localhost:5169/_vs/browserLink - -
+2023-07-14T16:21:06.2267879+03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/1.1 GET http://localhost:5169/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 908.9034ms
+2023-07-14T16:21:06.2636901+03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/1.1 GET http://localhost:5169/swagger/v1/swagger.json - -
+2023-07-14T16:21:06.6469283+03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/1.1 GET http://localhost:5169/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 382.9838ms
+2023-07-14T16:21:08.3831788+03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/1.1 GET http://localhost:5169/_health - -
+2023-07-14T16:21:08.6147555+03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executing endpoint '"Health checks"'
+2023-07-14T16:21:12.0662307+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("312"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+2023-07-14T16:21:12.4598898+03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executed endpoint '"Health checks"'
+2023-07-14T16:21:12.7009028+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1,004"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[ID], [a].[Name], [a].[Password], [a].[Surname], [a].[Username], [a].[authorizationID], [a].[createTime], [a].[deletedInfo], [a].[updateTime], [r].[ID], [r].[Name], [r].[createTime], [r].[deletedInfo], [r].[updateTime]
+FROM [AuthorizedPerson] AS [a]
+INNER JOIN [Roles] AS [r] ON [a].[authorizationID] = [r].[ID]"
+2023-07-14T16:21:12.8979434+03:00 [INF] (Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor) Executing "ObjectResult", writing value of type '"System.Collections.Generic.List`1[[em.Domain.Authorize.AuthorizedPerson, em.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2023-07-14T16:21:13.1132385+03:00 [INF] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker) Executed action "EmployeeAutomation.Controllers.AuthorizedPersonController.GetAuthorizedPersons (EmployeeAutomation)" in 11838.7218ms
+2023-07-14T16:21:13.1185260+03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executed endpoint '"EmployeeAutomation.Controllers.AuthorizedPersonController.GetAuthorizedPersons (EmployeeAutomation)"'
+2023-07-14T16:21:13.2962055+03:00 [INF] (AutoWrapper.AutoWrapperMiddleware) Source:[::1] Request: GET http localhost:5169/_health   Responded with [200] in 4666ms
+2023-07-14T16:21:13.3033322+03:00 [INF] (AutoWrapper.AutoWrapperMiddleware) Source:[::1] Request: GET http localhost:5169/api/AuthorizedPerson   Responded with [200] in 12135ms
+2023-07-14T16:21:13.3085179+03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/1.1 GET http://localhost:5169/_health - - - 200 68 application/json 4925.2497ms
+2023-07-14T16:21:13.3330163+03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/1.1 GET http://localhost:5169/api/AuthorizedPerson - - - 200 1570 application/json 12450.3213ms
+2023-07-14T16:21:14.2020883+03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/1.1 GET http://localhost:5169/_health - -
+2023-07-14T16:21:14.2431720+03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executing endpoint '"Health checks"'
+2023-07-14T16:21:14.6331649+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("17"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+2023-07-14T16:21:14.6865152+03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executed endpoint '"Health checks"'
+2023-07-14T16:21:14.6954636+03:00 [INF] (AutoWrapper.AutoWrapperMiddleware) Source:[::1] Request: GET http localhost:5169/_health   Responded with [200] in 452ms
+2023-07-14T16:21:14.7140984+03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/1.1 GET http://localhost:5169/_health - - - 200 68 application/json 511.8628ms
+2023-07-14T16:22:31.9706982+03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/1.1 GET http://localhost:5169/api/Company - -
+2023-07-14T16:22:32.0331937+03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executing endpoint '"EmployeeAutomation.Controllers.CompanyController.GetCompanies (EmployeeAutomation)"'
+2023-07-14T16:22:32.0734715+03:00 [INF] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker) Route matched with "{action = \"GetCompanies\", controller = \"Company\"}". Executing controller action with signature "System.Collections.Generic.List`1[em.Domain.Entity.Company] GetCompanies()" on controller "EmployeeAutomation.Controllers.CompanyController" ("EmployeeAutomation").
+2023-07-14T16:22:32.2940365+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("31"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[ID], [c].[Adress], [c].[Name], [c].[businessType], [c].[createTime], [c].[deletedInfo], [c].[updateTime]
+FROM [Company] AS [c]"
+2023-07-14T16:22:32.5960017+03:00 [INF] (Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor) Executing "ObjectResult", writing value of type '"System.Collections.Generic.List`1[[em.Domain.Entity.Company, em.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2023-07-14T16:22:32.6216715+03:00 [INF] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker) Executed action "EmployeeAutomation.Controllers.CompanyController.GetCompanies (EmployeeAutomation)" in 517.9671ms
+2023-07-14T16:22:32.6270012+03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executed endpoint '"EmployeeAutomation.Controllers.CompanyController.GetCompanies (EmployeeAutomation)"'
+2023-07-14T16:22:32.6328423+03:00 [INF] (AutoWrapper.AutoWrapperMiddleware) Source:[::1] Request: GET http localhost:5169/api/Company   Responded with [200] in 601ms
+2023-07-14T16:22:32.6530020+03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/1.1 GET http://localhost:5169/api/Company - - - 200 548 application/json 684.2690ms
+2023-07-14T16:23:00.2494841+03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/1.1 GET http://localhost:5169/api/Employee - -
+2023-07-14T16:23:00.2931632+03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executing endpoint '"EmployeeAutomation.Controllers.EmployeeController.GetEmployees (EmployeeAutomation)"'
+2023-07-14T16:23:00.3026998+03:00 [INF] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker) Route matched with "{action = \"GetEmployees\", controller = \"Employee\"}". Executing controller action with signature "System.Collections.Generic.List`1[em.Domain.Entity.Employee] GetEmployees()" on controller "EmployeeAutomation.Controllers.EmployeeController" ("EmployeeAutomation").
+2023-07-14T16:23:00.4939706+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("58"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[ID], [e].[Adress], [e].[CompanyID], [e].[Name], [e].[Surname], [e].[createTime], [e].[deletedInfo], [e].[updateTime]
+FROM [Employee] AS [e]"
+2023-07-14T16:23:00.6577311+03:00 [INF] (Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor) Executing "ObjectResult", writing value of type '"System.Collections.Generic.List`1[[em.Domain.Entity.Employee, em.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2023-07-14T16:23:00.6747927+03:00 [INF] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker) Executed action "EmployeeAutomation.Controllers.EmployeeController.GetEmployees (EmployeeAutomation)" in 321.4051ms
+2023-07-14T16:23:00.6780693+03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executed endpoint '"EmployeeAutomation.Controllers.EmployeeController.GetEmployees (EmployeeAutomation)"'
+2023-07-14T16:23:00.6827010+03:00 [INF] (AutoWrapper.AutoWrapperMiddleware) Source:[::1] Request: GET http localhost:5169/api/Employee   Responded with [200] in 389ms
+2023-07-14T16:23:00.7447358+03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/1.1 GET http://localhost:5169/api/Employee - - - 200 363 application/json 495.4336ms
+2023-07-14T16:23:46.2829818+03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/1.1 GET http://localhost:5169/api/Permission - -
+2023-07-14T16:23:46.3307620+03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executing endpoint '"EmployeeAutomation.Controllers.PermissionController.GetPermissions (EmployeeAutomation)"'
+2023-07-14T16:23:46.3499564+03:00 [INF] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker) Route matched with "{action = \"GetPermissions\", controller = \"Permission\"}". Executing controller action with signature "System.Collections.Generic.List`1[em.Domain.Entity.Permission] GetPermissions()" on controller "EmployeeAutomation.Controllers.PermissionController" ("EmployeeAutomation").
+2023-07-14T16:23:46.5996561+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("73"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [p].[ID], [p].[createTime], [p].[deletedInfo], [p].[employeeID], [p].[endTime], [p].[reasonID], [p].[startTime], [p].[updateTime]
+FROM [Permission] AS [p]"
+2023-07-14T16:23:46.7197875+03:00 [INF] (Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor) Executing "ObjectResult", writing value of type '"System.Collections.Generic.List`1[[em.Domain.Entity.Permission, em.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2023-07-14T16:23:46.7355522+03:00 [INF] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker) Executed action "EmployeeAutomation.Controllers.PermissionController.GetPermissions (EmployeeAutomation)" in 322.5882ms
+2023-07-14T16:23:46.7418845+03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executed endpoint '"EmployeeAutomation.Controllers.PermissionController.GetPermissions (EmployeeAutomation)"'
+2023-07-14T16:23:46.7465273+03:00 [INF] (AutoWrapper.AutoWrapperMiddleware) Source:[::1] Request: GET http localhost:5169/api/Permission   Responded with [200] in 416ms
+2023-07-14T16:23:46.7678355+03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/1.1 GET http://localhost:5169/api/Permission - - - 200 405 application/json 486.2825ms

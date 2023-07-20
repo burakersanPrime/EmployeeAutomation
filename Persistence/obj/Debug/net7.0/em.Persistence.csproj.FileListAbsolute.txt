@@ -1,0 +1,17 @@
+C:\Users\burak\source\repos\EmployeeAutomation\Persistence\bin\Debug\net7.0\em.Persistence.deps.json
+C:\Users\burak\source\repos\EmployeeAutomation\Persistence\bin\Debug\net7.0\em.Persistence.dll
+C:\Users\burak\source\repos\EmployeeAutomation\Persistence\bin\Debug\net7.0\em.Persistence.pdb
+C:\Users\burak\source\repos\EmployeeAutomation\Persistence\bin\Debug\net7.0\em.Application.dll
+C:\Users\burak\source\repos\EmployeeAutomation\Persistence\bin\Debug\net7.0\em.Domain.dll
+C:\Users\burak\source\repos\EmployeeAutomation\Persistence\bin\Debug\net7.0\em.Domain.pdb
+C:\Users\burak\source\repos\EmployeeAutomation\Persistence\bin\Debug\net7.0\em.Application.pdb
+C:\Users\burak\source\repos\EmployeeAutomation\Persistence\obj\Debug\net7.0\em.Persistence.csproj.AssemblyReference.cache
+C:\Users\burak\source\repos\EmployeeAutomation\Persistence\obj\Debug\net7.0\em.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\burak\source\repos\EmployeeAutomation\Persistence\obj\Debug\net7.0\em.Persistence.AssemblyInfoInputs.cache
+C:\Users\burak\source\repos\EmployeeAutomation\Persistence\obj\Debug\net7.0\em.Persistence.AssemblyInfo.cs
+C:\Users\burak\source\repos\EmployeeAutomation\Persistence\obj\Debug\net7.0\em.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\burak\source\repos\EmployeeAutomation\Persistence\obj\Debug\net7.0\em.Persistence.csproj.CopyComplete
+C:\Users\burak\source\repos\EmployeeAutomation\Persistence\obj\Debug\net7.0\em.Persistence.dll
+C:\Users\burak\source\repos\EmployeeAutomation\Persistence\obj\Debug\net7.0\refint\em.Persistence.dll
+C:\Users\burak\source\repos\EmployeeAutomation\Persistence\obj\Debug\net7.0\em.Persistence.pdb
+C:\Users\burak\source\repos\EmployeeAutomation\Persistence\obj\Debug\net7.0\ref\em.Persistence.dll

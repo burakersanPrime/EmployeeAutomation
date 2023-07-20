@@ -1,0 +1,57 @@
+2023-07-18T11:52:57.6776224+03:00 [INF] (Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager) User profile is available. Using '"C:\Users\burak\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-07-18T11:52:58.0038078+03:00 [INF] (Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager) Creating key {bbd8f560-3d23-417b-9342-ea16782a61bd} with creation date 2023-07-18 08:52:57Z, activation date 2023-07-18 08:52:57Z, and expiration date 2023-10-16 08:52:57Z.
+2023-07-18T11:52:58.0733645+03:00 [INF] (Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository) Writing data to file '"C:\Users\burak\AppData\Local\ASP.NET\DataProtection-Keys\key-bbd8f560-3d23-417b-9342-ea16782a61bd.xml"'.
+2023-07-18T11:52:58.6008574+03:00 [INF] (Microsoft.Hosting.Lifetime) Now listening on: "http://localhost:5169"
+2023-07-18T11:52:58.6093951+03:00 [INF] (Microsoft.Hosting.Lifetime) Application started. Press Ctrl+C to shut down.
+2023-07-18T11:52:58.6105606+03:00 [INF] (Microsoft.Hosting.Lifetime) Hosting environment: "Development"
+2023-07-18T11:52:58.6117848+03:00 [INF] (Microsoft.Hosting.Lifetime) Content root path: "C:\Users\burak\source\repos\EmployeeAutomation\EmployeeAutomation"
+2023-07-18T11:53:02.2828397+03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/1.1 GET http://localhost:5169/swagger - -
+2023-07-18T11:53:02.8290567+03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/1.1 GET http://localhost:5169/swagger - - - 301 0 - 550.6868ms
+2023-07-18T11:53:02.8343276+03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/1.1 GET http://localhost:5169/swagger/index.html - -
+2023-07-18T11:53:03.2127775+03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/1.1 GET http://localhost:5169/swagger/swagger-ui.css - -
+2023-07-18T11:53:03.2517459+03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/1.1 GET http://localhost:5169/swagger/swagger-ui-bundle.js - -
+2023-07-18T11:53:03.2691895+03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/1.1 GET http://localhost:5169/swagger/index.html - - - 200 - text/html;charset=utf-8 434.8024ms
+2023-07-18T11:53:03.2892518+03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/1.1 GET http://localhost:5169/_framework/aspnetcore-browser-refresh.js - -
+2023-07-18T11:53:03.2669133+03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/1.1 GET http://localhost:5169/swagger/swagger-ui-standalone-preset.js - -
+2023-07-18T11:53:03.2735869+03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/1.1 GET http://localhost:5169/_vs/browserLink - -
+2023-07-18T11:53:03.2990976+03:00 [INF] (Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware) Sending file. Request path: '"/swagger-ui.css"'. Physical path: '"N/A"'
+2023-07-18T11:53:03.3111188+03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/1.1 GET http://localhost:5169/_framework/aspnetcore-browser-refresh.js - - - 200 12368 application/javascript;+charset=utf-8 21.7698ms
+2023-07-18T11:53:03.3406445+03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/1.1 GET http://localhost:5169/swagger/swagger-ui.css - - - 200 144929 text/css 127.7790ms
+2023-07-18T11:53:03.3531323+03:00 [INF] (Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware) Sending file. Request path: '"/swagger-ui-bundle.js"'. Physical path: '"N/A"'
+2023-07-18T11:53:03.3613356+03:00 [INF] (Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware) Sending file. Request path: '"/swagger-ui-standalone-preset.js"'. Physical path: '"N/A"'
+2023-07-18T11:53:03.3708498+03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/1.1 GET http://localhost:5169/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 118.9677ms
+2023-07-18T11:53:03.3744515+03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/1.1 GET http://localhost:5169/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 107.3332ms
+2023-07-18T11:53:03.4267994+03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/1.1 GET http://localhost:5169/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 153.0777ms
+2023-07-18T11:53:03.7265307+03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/1.1 GET http://localhost:5169/swagger/v1/swagger.json - -
+2023-07-18T11:53:03.7639612+03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/1.1 GET http://localhost:5169/swagger/favicon-32x32.png - -
+2023-07-18T11:53:03.7768611+03:00 [INF] (Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware) Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2023-07-18T11:53:03.7862173+03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/1.1 GET http://localhost:5169/swagger/favicon-32x32.png - - - 200 628 image/png 22.1867ms
+2023-07-18T11:53:03.8341934+03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/1.1 GET http://localhost:5169/swagger/favicon-32x32.png - -
+2023-07-18T11:53:03.8454912+03:00 [INF] (Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware) Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2023-07-18T11:53:03.8521552+03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/1.1 GET http://localhost:5169/swagger/favicon-32x32.png - - - 200 628 image/png 17.9565ms
+2023-07-18T11:53:03.9523601+03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/1.1 GET http://localhost:5169/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 225.6836ms
+2023-07-18T11:53:12.7536928+03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/1.1 GET http://localhost:5169/api/AuthorizedPerson - -
+2023-07-18T11:53:12.7868550+03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executing endpoint '"EmployeeAutomation.Controllers.AuthorizedPersonController.GetAuthorizedPersons (EmployeeAutomation)"'
+2023-07-18T11:53:12.8046545+03:00 [INF] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker) Route matched with "{action = \"GetAuthorizedPersons\", controller = \"AuthorizedPerson\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[em.Domain.Authorize.AuthorizedPerson]] GetAuthorizedPersons()" on controller "EmployeeAutomation.Controllers.AuthorizedPersonController" ("EmployeeAutomation").
+2023-07-18T11:53:16.5890484+03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("44"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[ID], [a].[Name], [a].[Password], [a].[Surname], [a].[Username], [a].[authorizationID], [a].[createTime], [a].[deletedInfo], [a].[updateTime], [r].[ID], [r].[Name], [r].[createTime], [r].[deletedInfo], [r].[updateTime]
+FROM [AuthorizedPerson] AS [a]
+INNER JOIN [Roles] AS [r] ON [a].[authorizationID] = [r].[ID]"
+2023-07-18T11:53:16.6828048+03:00 [INF] (Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor) Executing "ObjectResult", writing value of type '"System.Collections.Generic.List`1[[em.Domain.Authorize.AuthorizedPerson, em.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2023-07-18T11:53:16.8706872+03:00 [INF] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker) Executed action "EmployeeAutomation.Controllers.AuthorizedPersonController.GetAuthorizedPersons (EmployeeAutomation)" in 4032.8697ms
+2023-07-18T11:53:16.8768445+03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executed endpoint '"EmployeeAutomation.Controllers.AuthorizedPersonController.GetAuthorizedPersons (EmployeeAutomation)"'
+2023-07-18T11:53:17.1751130+03:00 [INF] (AutoWrapper.AutoWrapperMiddleware) Source:[::1] Request: GET http localhost:5169/api/AuthorizedPerson   Responded with [200] in 4386ms
+2023-07-18T11:53:17.1991105+03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/1.1 GET http://localhost:5169/api/AuthorizedPerson - - - 200 1570 application/json 4445.3727ms
+2023-07-18T11:53:33.3975300+03:00 [INF] (Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager) User profile is available. Using '"C:\Users\burak\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-07-18T11:53:33.7911123+03:00 [INF] (Microsoft.Hosting.Lifetime) Now listening on: "http://localhost:5169"
+2023-07-18T11:53:33.8088458+03:00 [INF] (Microsoft.Hosting.Lifetime) Application started. Press Ctrl+C to shut down.
+2023-07-18T11:53:33.8158967+03:00 [INF] (Microsoft.Hosting.Lifetime) Hosting environment: "Development"
+2023-07-18T11:53:33.8230698+03:00 [INF] (Microsoft.Hosting.Lifetime) Content root path: "C:\Users\burak\source\repos\EmployeeAutomation\EmployeeAutomation"
+2023-07-18T11:53:36.2792946+03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/1.1 GET http://localhost:5169/swagger/index.html - -
+2023-07-18T11:53:36.7314416+03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/1.1 GET http://localhost:5169/_vs/browserLink - -
+2023-07-18T11:53:36.7374021+03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/1.1 GET http://localhost:5169/_framework/aspnetcore-browser-refresh.js - -
+2023-07-18T11:53:36.7565698+03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/1.1 GET http://localhost:5169/swagger/index.html - - - 200 - text/html;charset=utf-8 474.8883ms
+2023-07-18T11:53:36.7670104+03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/1.1 GET http://localhost:5169/_framework/aspnetcore-browser-refresh.js - - - 200 12368 application/javascript;+charset=utf-8 29.6453ms
+2023-07-18T11:53:36.7941941+03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/1.1 GET http://localhost:5169/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 62.8778ms
+2023-07-18T11:53:37.1556281+03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/1.1 GET http://localhost:5169/swagger/v1/swagger.json - -
+2023-07-18T11:53:37.3537190+03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/1.1 GET http://localhost:5169/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 198.0138ms

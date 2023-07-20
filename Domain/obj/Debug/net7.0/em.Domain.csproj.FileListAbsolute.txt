@@ -1,0 +1,12 @@
+C:\Users\burak\source\repos\EmployeeAutomation\Domain\bin\Debug\net7.0\em.Domain.deps.json
+C:\Users\burak\source\repos\EmployeeAutomation\Domain\bin\Debug\net7.0\em.Domain.dll
+C:\Users\burak\source\repos\EmployeeAutomation\Domain\bin\Debug\net7.0\em.Domain.pdb
+C:\Users\burak\source\repos\EmployeeAutomation\Domain\obj\Debug\net7.0\em.Domain.csproj.AssemblyReference.cache
+C:\Users\burak\source\repos\EmployeeAutomation\Domain\obj\Debug\net7.0\em.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\burak\source\repos\EmployeeAutomation\Domain\obj\Debug\net7.0\em.Domain.AssemblyInfoInputs.cache
+C:\Users\burak\source\repos\EmployeeAutomation\Domain\obj\Debug\net7.0\em.Domain.AssemblyInfo.cs
+C:\Users\burak\source\repos\EmployeeAutomation\Domain\obj\Debug\net7.0\em.Domain.csproj.CoreCompileInputs.cache
+C:\Users\burak\source\repos\EmployeeAutomation\Domain\obj\Debug\net7.0\em.Domain.dll
+C:\Users\burak\source\repos\EmployeeAutomation\Domain\obj\Debug\net7.0\refint\em.Domain.dll
+C:\Users\burak\source\repos\EmployeeAutomation\Domain\obj\Debug\net7.0\em.Domain.pdb
+C:\Users\burak\source\repos\EmployeeAutomation\Domain\obj\Debug\net7.0\ref\em.Domain.dll
